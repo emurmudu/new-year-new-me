@@ -33,7 +33,7 @@ img {
 }
 
 .topright .banner-heading {
-    color: var(--dark-01, #151414);
+    color: #151414;
     text-align: right;
     font-family: Work Sans;
     font-size: 60px;
@@ -95,7 +95,7 @@ img {
     transform: translate(-50%, -50%); */
     background: rgba(241, 91, 34, 0.20);
     border-radius: 50%;
-    margin-top: 130px;
+    margin-top: 110px;
     margin-left: 130px;
 }
 
@@ -131,7 +131,7 @@ img {
 }
 
 .prev-list li {
-    color: var(--dark-02, #444343);
+    color: #444343;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
@@ -139,12 +139,66 @@ img {
     line-height: 26px;
     list-style: none;
 }
-.prev-list li .fa-check{
+
+.prev-list li .fa-check {
     color: #16D887;
 }
 
 .prev-content {
     margin-right: 150px;
     padding-left: 80px;
-    margin-top: 390px;
+    margin-top: 370px;
+    padding-right: 30px;
+}
+
+.icon {
+    width: 92.958px;
+    height: 92.958px;
+    flex-shrink: 0;
+}
+
+/* My plane styles */
+
+.my-plan-heading {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.my-plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plan-description {
+    color: var(--dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.category{
+    text-align: center;
 }
